@@ -49,6 +49,41 @@ Every question includes:
 | 09 | **WordPiece & SentencePiece** — Tokenizer comparison | LLM Fundamentals | [Read →](questions/llm-fundamentals/08-wordpiece-sentencepiece.md) |
 | 10 | **Positional Encoding** — Sinusoidal, learned, RoPE, ALiBi | LLM Fundamentals | [Read →](questions/llm-fundamentals/09-positional-encoding.md) |
 | 11 | **Embeddings** — Vectors, similarity, and semantic geometry | LLM Fundamentals | [Read →](questions/llm-fundamentals/10-embeddings.md) |
+| 12 | **Q/K/V Attention** — The database lookup analogy | LLM Fundamentals | [Read →](questions/llm-fundamentals/11-qkv-attention.md) |
+| 13 | **Self-Attention** — How tokens relate to each other | LLM Fundamentals | [Read →](questions/llm-fundamentals/12-self-attention.md) |
+| 14 | **Cross Attention** — Connecting encoder and decoder | LLM Fundamentals | [Read →](questions/llm-fundamentals/13-cross-attention.md) |
+| 15 | **√dₖ Scaling Factor** — Why we scale attention scores | LLM Fundamentals | [Read →](questions/llm-fundamentals/14-scaling-factor.md) |
+| 16 | **Causal Masking** — Preventing future token leakage | LLM Fundamentals | [Read →](questions/llm-fundamentals/15-causal-masking.md) |
+| 17 | **Multi-Head Attention** — Parallel specialized heads | LLM Fundamentals | [Read →](questions/llm-fundamentals/16-multi-head-attention.md) |
+| 18 | **Feed-Forward Networks** — The knowledge store in Transformers | LLM Fundamentals | [Read →](questions/llm-fundamentals/17-feed-forward-networks.md) |
+| 19 | **Context Window** — Limits, costs, and optimization | LLM Fundamentals | [Read →](questions/llm-fundamentals/18-context-window.md) |
+| 20 | **Temperature** — Controlling randomness in generation | LLM Fundamentals | [Read →](questions/llm-fundamentals/19-temperature.md) |
+| 21 | **First Token Latency** — Prefill vs decode phases | LLM Fundamentals | [Read →](questions/llm-fundamentals/20-first-token-latency.md) |
+| 22 | **Top-p & Top-k Sampling** — Adaptive vs fixed decoding | LLM Fundamentals | [Read →](questions/llm-fundamentals/21-top-p-top-k.md) |
+| 23 | **Logits** — Raw scores, log-probs, constrained decoding | LLM Fundamentals | [Read →](questions/llm-fundamentals/22-logits.md) |
+| 24 | **Residual Connections** — Skip connections and gradient flow | LLM Fundamentals | [Read →](questions/llm-fundamentals/23-residual-connections.md) |
+| 25 | **Open vs Closed-Source LLMs** — Cost, privacy, quality trade-offs | LLM Fundamentals | [Read →](questions/llm-fundamentals/24-open-vs-closed-source.md) |
+| 26 | **Architecture Variants** — Encoder-only, decoder-only, encoder-decoder | LLM Fundamentals | [Read →](questions/llm-fundamentals/25-encoder-decoder-architectures.md) |
+| 27 | **KV Cache** — Eliminating redundant computation | LLM Fundamentals | [Read →](questions/llm-fundamentals/26-kv-cache.md) |
+| 28 | **Model Distillation** — Teacher-student knowledge transfer | LLM Fundamentals | [Read →](questions/llm-fundamentals/27-model-distillation.md) |
+| 29 | **Mixture of Experts (MoE)** — Sparse expert routing | LLM Fundamentals | [Read →](questions/llm-fundamentals/28-mixture-of-experts.md) |
+| 30 | **Dense vs Sparse Models** — Activation pattern trade-offs | LLM Fundamentals | [Read →](questions/llm-fundamentals/29-dense-vs-sparse.md) |
+| 31 | **Flash Attention** — IO-aware tiled attention computation | LLM Fundamentals | [Read →](questions/llm-fundamentals/30-flash-attention.md) |
+| 32 | **Cross-Entropy Loss** — The LLM training objective | LLM Fundamentals | [Read →](questions/llm-fundamentals/31-cross-entropy-loss.md) |
+| 33 | **GQA** — Grouped-Query Attention for inference efficiency | LLM Fundamentals | [Read →](questions/llm-fundamentals/32-gqa.md) |
+| 34 | **RoPE** — Rotary Position Embedding mechanics | LLM Fundamentals | [Read →](questions/llm-fundamentals/33-rope.md) |
+| 35 | **Layer Normalization** — Stabilizing deep network training | LLM Fundamentals | [Read →](questions/llm-fundamentals/34-layer-normalization.md) |
+| 36 | **RMSNorm** — Simplified normalization for modern LLMs | LLM Fundamentals | [Read →](questions/llm-fundamentals/35-rmsnorm.md) |
+| 37 | **Autoregressive Models** — Sequential token generation | LLM Fundamentals | [Read →](questions/llm-fundamentals/36-autoregressive-models.md) |
+| 38 | **AR vs MLM** — Autoregressive vs masked language modeling | LLM Fundamentals | [Read →](questions/llm-fundamentals/37-autoregressive-vs-mlm.md) |
+| 39 | **PPO** — Proximal Policy Optimization in RLHF | LLM Fundamentals | [Read →](questions/llm-fundamentals/38-ppo.md) |
+| 40 | **DPO** — Direct Preference Optimization | LLM Fundamentals | [Read →](questions/llm-fundamentals/39-dpo.md) |
+| 41 | **GRPO** — Group Relative Policy Optimization | LLM Fundamentals | [Read →](questions/llm-fundamentals/40-grpo.md) |
+| 42 | **Recursive Language Models** — Iterative refinement | LLM Fundamentals | [Read →](questions/llm-fundamentals/41-recursive-language-models.md) |
+| 43 | **Continual Learning** — Updating LLMs without forgetting | LLM Fundamentals | [Read →](questions/llm-fundamentals/42-continual-learning.md) |
+| 44 | **Diffusion Language Models** — Non-autoregressive generation | LLM Fundamentals | [Read →](questions/llm-fundamentals/43-diffusion-language-models.md) |
+| 45 | **Small Language Models** — Efficient 1-7B models | LLM Fundamentals | [Read →](questions/llm-fundamentals/44-small-language-models.md) |
+| 46 | **Large Reasoning Models** — Test-time compute scaling | LLM Fundamentals | [Read →](questions/llm-fundamentals/45-large-reasoning-models.md) |
 
 > More deep dives are added regularly. ⭐ Star the repo to stay updated.
 
@@ -101,42 +136,42 @@ Every question includes:
 - Explain WordPiece and SentencePiece. — [Read Answer →](questions/llm-fundamentals/08-wordpiece-sentencepiece.md)
 - What is positional encoding, and why is it needed in Transformers? — [Read Answer →](questions/llm-fundamentals/09-positional-encoding.md)
 - What are embeddings? — [Read Answer →](questions/llm-fundamentals/10-embeddings.md)
-- Explain the Query(Q), Key(K), and Value(V) in attention.
-- What is self-attention, and how does it work in Transformers?
-- What is Cross Attention in Transformers?
-- Why do we scale the dot product attention by √dₖ in the Transformer architecture?
-- What is causal masking?
-- What are multi-head attention mechanisms? Why use multiple attention heads?
-- What are Feed-Forward Networks in LLMs?
-- What is the context window in LLMs, and why does it matter?
-- Why is the context window limited in LLMs?
-- What is temperature in the context of LLMs, and how does it affect output?
-- Why is the first token slower than the rest in an LLM?
-- Explain Top-p (nucleus) sampling and Top-k sampling. How do they differ?
-- What are logits, and how are they used in text generation?
-- What are skip connections (residual connections) in Transformers?
-- What is the difference between open-source and closed-source LLMs? When would you choose one over the other?
-- What is the difference between encoder-only, decoder-only, and encoder-decoder Transformer architectures?
-- What is KV cache, and how does it speed up inference?
-- What is model distillation, and how is it used with LLMs?
-- What is Mixture of Experts (MoE), and how does it work in models like Mixtral?
-- What is the difference between dense and sparse models?
-- What is Flash Attention?
-- What is Cross-Entropy Loss?
-- What is Grouped-Query Attention (GQA), and how does it differ from Multi-Head Attention (MHA)?
-- How does Rotary Position Embedding (RoPE) work, and why is it preferred over learned positional embeddings?
-- Explain Layer Normalization.
-- Explain RMSNorm (Root Mean Square Layer Normalization).
-- What are Autoregressive Models?
-- Explain the difference between autoregressive and masked language modeling.
-- Proximal Policy Optimization (PPO).
-- Direct Preference Optimization (DPO).
-- Group Relative Policy Optimization (GRPO).
-- Recursive Language Models (RLMs).
-- Continual Learning in LLMs.
-- How do Diffusion Language Models (DLMs) work?
-- Small Language Models (SLMs).
-- Large Reasoning Models (LRMs).
+- Explain the Query(Q), Key(K), and Value(V) in attention. — [Read Answer →](questions/llm-fundamentals/11-qkv-attention.md)
+- What is self-attention, and how does it work in Transformers? — [Read Answer →](questions/llm-fundamentals/12-self-attention.md)
+- What is Cross Attention in Transformers? — [Read Answer →](questions/llm-fundamentals/13-cross-attention.md)
+- Why do we scale the dot product attention by √dₖ in the Transformer architecture? — [Read Answer →](questions/llm-fundamentals/14-scaling-factor.md)
+- What is causal masking? — [Read Answer →](questions/llm-fundamentals/15-causal-masking.md)
+- What are multi-head attention mechanisms? Why use multiple attention heads? — [Read Answer →](questions/llm-fundamentals/16-multi-head-attention.md)
+- What are Feed-Forward Networks in LLMs? — [Read Answer →](questions/llm-fundamentals/17-feed-forward-networks.md)
+- What is the context window in LLMs, and why does it matter? — [Read Answer →](questions/llm-fundamentals/18-context-window.md)
+- Why is the context window limited in LLMs? — [Read Answer →](questions/llm-fundamentals/18-context-window.md)
+- What is temperature in the context of LLMs, and how does it affect output? — [Read Answer →](questions/llm-fundamentals/19-temperature.md)
+- Why is the first token slower than the rest in an LLM? — [Read Answer →](questions/llm-fundamentals/20-first-token-latency.md)
+- Explain Top-p (nucleus) sampling and Top-k sampling. How do they differ? — [Read Answer →](questions/llm-fundamentals/21-top-p-top-k.md)
+- What are logits, and how are they used in text generation? — [Read Answer →](questions/llm-fundamentals/22-logits.md)
+- What are skip connections (residual connections) in Transformers? — [Read Answer →](questions/llm-fundamentals/23-residual-connections.md)
+- What is the difference between open-source and closed-source LLMs? When would you choose one over the other? — [Read Answer →](questions/llm-fundamentals/24-open-vs-closed-source.md)
+- What is the difference between encoder-only, decoder-only, and encoder-decoder Transformer architectures? — [Read Answer →](questions/llm-fundamentals/25-encoder-decoder-architectures.md)
+- What is KV cache, and how does it speed up inference? — [Read Answer →](questions/llm-fundamentals/26-kv-cache.md)
+- What is model distillation, and how is it used with LLMs? — [Read Answer →](questions/llm-fundamentals/27-model-distillation.md)
+- What is Mixture of Experts (MoE), and how does it work in models like Mixtral? — [Read Answer →](questions/llm-fundamentals/28-mixture-of-experts.md)
+- What is the difference between dense and sparse models? — [Read Answer →](questions/llm-fundamentals/29-dense-vs-sparse.md)
+- What is Flash Attention? — [Read Answer →](questions/llm-fundamentals/30-flash-attention.md)
+- What is Cross-Entropy Loss? — [Read Answer →](questions/llm-fundamentals/31-cross-entropy-loss.md)
+- What is Grouped-Query Attention (GQA), and how does it differ from Multi-Head Attention (MHA)? — [Read Answer →](questions/llm-fundamentals/32-gqa.md)
+- How does Rotary Position Embedding (RoPE) work, and why is it preferred over learned positional embeddings? — [Read Answer →](questions/llm-fundamentals/33-rope.md)
+- Explain Layer Normalization. — [Read Answer →](questions/llm-fundamentals/34-layer-normalization.md)
+- Explain RMSNorm (Root Mean Square Layer Normalization). — [Read Answer →](questions/llm-fundamentals/35-rmsnorm.md)
+- What are Autoregressive Models? — [Read Answer →](questions/llm-fundamentals/36-autoregressive-models.md)
+- Explain the difference between autoregressive and masked language modeling. — [Read Answer →](questions/llm-fundamentals/37-autoregressive-vs-mlm.md)
+- Proximal Policy Optimization (PPO). — [Read Answer →](questions/llm-fundamentals/38-ppo.md)
+- Direct Preference Optimization (DPO). — [Read Answer →](questions/llm-fundamentals/39-dpo.md)
+- Group Relative Policy Optimization (GRPO). — [Read Answer →](questions/llm-fundamentals/40-grpo.md)
+- Recursive Language Models (RLMs). — [Read Answer →](questions/llm-fundamentals/41-recursive-language-models.md)
+- Continual Learning in LLMs. — [Read Answer →](questions/llm-fundamentals/42-continual-learning.md)
+- How do Diffusion Language Models (DLMs) work? — [Read Answer →](questions/llm-fundamentals/43-diffusion-language-models.md)
+- Small Language Models (SLMs). — [Read Answer →](questions/llm-fundamentals/44-small-language-models.md)
+- Large Reasoning Models (LRMs). — [Read Answer →](questions/llm-fundamentals/45-large-reasoning-models.md)
 
 ### Scenario-Based Questions
 
