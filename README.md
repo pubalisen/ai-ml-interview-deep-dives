@@ -39,6 +39,16 @@ Every question includes:
 | # | Topic | Category | Link |
 |---|-------|----------|------|
 | 01 | **The Inference Loop** — What happens under the hood when a user prompts an LLM? | LLM Fundamentals | [Read →](questions/01-the-inference-loop/README.md) |
+| 02 | **Foundation Models** — How they changed AI engineering | LLM Fundamentals | [Read →](questions/llm-fundamentals/01-foundation-models.md) |
+| 03 | **What Is an LLM** — Architecture, training, and how it works | LLM Fundamentals | [Read →](questions/llm-fundamentals/02-what-is-an-llm.md) |
+| 04 | **Inside ChatGPT** — Full request lifecycle from Enter to response | LLM Fundamentals | [Read →](questions/llm-fundamentals/03-inside-chatgpt.md) |
+| 05 | **Transformer Architecture** — Complete data flow walkthrough | LLM Fundamentals | [Read →](questions/llm-fundamentals/04-transformer-architecture.md) |
+| 06 | **Transformer Components** — Every building block explained | LLM Fundamentals | [Read →](questions/llm-fundamentals/05-transformer-components.md) |
+| 07 | **Tokenization** — BPE, subwords, and why tokens ≠ words | LLM Fundamentals | [Read →](questions/llm-fundamentals/06-tokenization.md) |
+| 08 | **Byte Pair Encoding** — The algorithm step by step | LLM Fundamentals | [Read →](questions/llm-fundamentals/07-bpe.md) |
+| 09 | **WordPiece & SentencePiece** — Tokenizer comparison | LLM Fundamentals | [Read →](questions/llm-fundamentals/08-wordpiece-sentencepiece.md) |
+| 10 | **Positional Encoding** — Sinusoidal, learned, RoPE, ALiBi | LLM Fundamentals | [Read →](questions/llm-fundamentals/09-positional-encoding.md) |
+| 11 | **Embeddings** — Vectors, similarity, and semantic geometry | LLM Fundamentals | [Read →](questions/llm-fundamentals/10-embeddings.md) |
 
 > More deep dives are added regularly. ⭐ Star the repo to stay updated.
 
@@ -81,16 +91,16 @@ Every question includes:
 
 ### Conceptual Questions
 
-- What are foundation models, and how have they changed AI engineering?
-- What is a Large Language Model (LLM), and how does it work?
-- Inside ChatGPT: What Happens After You Hit Enter?
-- What is the Transformer architecture and how does it work?
-- What are the key components of the Transformer architecture?
-- What is tokenization in LLMs?
-- Explain BPE (Byte Pair Encoding).
-- Explain WordPiece and SentencePiece.
-- What is positional encoding, and why is it needed in Transformers?
-- What are embeddings?
+- What are foundation models, and how have they changed AI engineering? — [Read Answer →](questions/llm-fundamentals/01-foundation-models.md)
+- What is a Large Language Model (LLM), and how does it work? — [Read Answer →](questions/llm-fundamentals/02-what-is-an-llm.md)
+- Inside ChatGPT: What Happens After You Hit Enter? — [Read Answer →](questions/llm-fundamentals/03-inside-chatgpt.md)
+- What is the Transformer architecture and how does it work? — [Read Answer →](questions/llm-fundamentals/04-transformer-architecture.md)
+- What are the key components of the Transformer architecture? — [Read Answer →](questions/llm-fundamentals/05-transformer-components.md)
+- What is tokenization in LLMs? — [Read Answer →](questions/llm-fundamentals/06-tokenization.md)
+- Explain BPE (Byte Pair Encoding). — [Read Answer →](questions/llm-fundamentals/07-bpe.md)
+- Explain WordPiece and SentencePiece. — [Read Answer →](questions/llm-fundamentals/08-wordpiece-sentencepiece.md)
+- What is positional encoding, and why is it needed in Transformers? — [Read Answer →](questions/llm-fundamentals/09-positional-encoding.md)
+- What are embeddings? — [Read Answer →](questions/llm-fundamentals/10-embeddings.md)
 - Explain the Query(Q), Key(K), and Value(V) in attention.
 - What is self-attention, and how does it work in Transformers?
 - What is Cross Attention in Transformers?
