@@ -175,24 +175,24 @@ Every question includes:
 
 ### Scenario-Based Questions
 
-- Your LLM keeps ignoring your instructions. How do you make it follow structured output formats?
-- Your LLM-powered tool hits the context window limit on long documents. How do you handle it?
-- Your LLM does not admit when it does not know the answer. How do you make it say "I don't know"?
-- Your LLM generates responses that are too verbose. How do you control response length?
-- Your LLM memorized proprietary training data and leaks it in responses. How do you prevent this?
-- Your LLM coding assistant generates outdated code using deprecated libraries. How do you fix it?
-- Your tokenizer splits important domain terms into meaningless subword pieces. How do you fix it?
-- Your Transformer's KV cache grows too large during long sequence generation. How do you manage memory?
-- Your Transformer runs out of memory on long documents due to quadratic self-attention. How do you scale it?
-- Your distilled student model fails on the complex reasoning that the teacher model handled. How do you close the gap?
-- After RLHF alignment, your LLM became safer but lost capability on hard tasks. How do you manage the alignment tax?
-- Your RLHF-trained LLM is gaming the reward model instead of being genuinely helpful. How do you fix reward hacking?
-- Your chatbot loses context after 10 turns in a conversation. How do you maintain a long conversation context?
-- Your chatbot fails when users switch topics mid-conversation. How do you handle topic switches?
-- Your QA system always generates an answer even when no answer exists in the context. How do you detect unanswerable questions?
-- Your summarization system hallucinated facts not in the original article. How do you fix it?
-- Your text generation repeats phrases in long outputs. How do you fix repetition?
-- Transformers work on text, so can they also understand images?
+- Your LLM keeps ignoring your instructions. How do you make it follow structured output formats? — [Read Answer →](questions/llm-fundamentals/46-scenario-structured-output.md)
+- Your LLM-powered tool hits the context window limit on long documents. How do you handle it? — [Read Answer →](questions/llm-fundamentals/47-scenario-context-overflow.md)
+- Your LLM does not admit when it does not know the answer. How do you make it say "I don't know"? — [Read Answer →](questions/llm-fundamentals/48-scenario-i-dont-know.md)
+- Your LLM generates responses that are too verbose. How do you control response length? — [Read Answer →](questions/llm-fundamentals/49-scenario-verbosity.md)
+- Your LLM memorized proprietary training data and leaks it in responses. How do you prevent this? — [Read Answer →](questions/llm-fundamentals/50-scenario-data-leakage.md)
+- Your LLM coding assistant generates outdated code using deprecated libraries. How do you fix it? — [Read Answer →](questions/llm-fundamentals/51-scenario-outdated-code.md)
+- Your tokenizer splits important domain terms into meaningless subword pieces. How do you fix it? — [Read Answer →](questions/llm-fundamentals/52-scenario-tokenizer-domain.md)
+- Your Transformer's KV cache grows too large during long sequence generation. How do you manage memory? — [Read Answer →](questions/llm-fundamentals/53-scenario-kv-cache-memory.md)
+- Your Transformer runs out of memory on long documents due to quadratic self-attention. How do you scale it? — [Read Answer →](questions/llm-fundamentals/54-scenario-quadratic-attention.md)
+- Your distilled student model fails on the complex reasoning that the teacher model handled. How do you close the gap? — [Read Answer →](questions/llm-fundamentals/55-scenario-distillation-gap.md)
+- After RLHF alignment, your LLM became safer but lost capability on hard tasks. How do you manage the alignment tax? — [Read Answer →](questions/llm-fundamentals/56-scenario-alignment-tax.md)
+- Your RLHF-trained LLM is gaming the reward model instead of being genuinely helpful. How do you fix reward hacking? — [Read Answer →](questions/llm-fundamentals/57-scenario-reward-hacking.md)
+- Your chatbot loses context after 10 turns in a conversation. How do you maintain a long conversation context? — [Read Answer →](questions/llm-fundamentals/58-scenario-conversation-context.md)
+- Your chatbot fails when users switch topics mid-conversation. How do you handle topic switches? — [Read Answer →](questions/llm-fundamentals/59-scenario-topic-switching.md)
+- Your QA system always generates an answer even when no answer exists in the context. How do you detect unanswerable questions? — [Read Answer →](questions/llm-fundamentals/60-scenario-unanswerable.md)
+- Your summarization system hallucinated facts not in the original article. How do you fix it? — [Read Answer →](questions/llm-fundamentals/61-scenario-summarization-hallucination.md)
+- Your text generation repeats phrases in long outputs. How do you fix repetition? — [Read Answer →](questions/llm-fundamentals/62-scenario-repetition.md)
+- Transformers work on text, so can they also understand images? — [Read Answer →](questions/llm-fundamentals/63-scenario-multimodal-vision.md)
 
 ---
 
