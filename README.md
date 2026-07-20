@@ -84,6 +84,29 @@ Every question includes:
 | 44 | **Diffusion Language Models** — Non-autoregressive generation | LLM Fundamentals | [Read →](questions/llm-fundamentals/43-diffusion-language-models.md) |
 | 45 | **Small Language Models** — Efficient 1-7B models | LLM Fundamentals | [Read →](questions/llm-fundamentals/44-small-language-models.md) |
 | 46 | **Large Reasoning Models** — Test-time compute scaling | LLM Fundamentals | [Read →](questions/llm-fundamentals/45-large-reasoning-models.md) |
+| 47 | **What Is Prompt Engineering** — The prompt stack and discipline | Prompt Engineering | [Read →](questions/prompt-engineering/01-what-is-prompt-engineering.md) |
+| 48 | **Zero/One/Few-Shot** — In-context learning spectrum | Prompt Engineering | [Read →](questions/prompt-engineering/02-zero-one-few-shot.md) |
+| 49 | **Chain-of-Thought** — Step-by-step reasoning | Prompt Engineering | [Read →](questions/prompt-engineering/03-chain-of-thought.md) |
+| 50 | **Self-Consistency** — Majority voting over CoT chains | Prompt Engineering | [Read →](questions/prompt-engineering/04-self-consistency.md) |
+| 51 | **Tree-of-Thought** — Branching search with evaluation | Prompt Engineering | [Read →](questions/prompt-engineering/05-tree-of-thought.md) |
+| 52 | **ReAct Prompting** — Reasoning + Acting loops | Prompt Engineering | [Read →](questions/prompt-engineering/06-react-prompting.md) |
+| 53 | **System Prompts** — Persistent behavioral instructions | Prompt Engineering | [Read →](questions/prompt-engineering/07-system-prompts.md) |
+| 54 | **Structured Output** — JSON/XML schema enforcement | Prompt Engineering | [Read →](questions/prompt-engineering/08-structured-output-prompting.md) |
+| 55 | **Prompt Injection** — Attack vectors and defenses | Prompt Engineering | [Read →](questions/prompt-engineering/09-prompt-injection.md) |
+| 56 | **Jailbreaking** — Safety bypass techniques | Prompt Engineering | [Read →](questions/prompt-engineering/10-jailbreaking.md) |
+| 57 | **Cost & Latency** — Optimizing prompt economics | Prompt Engineering | [Read →](questions/prompt-engineering/11-cost-latency-optimization.md) |
+| 58 | **Engineering vs Tuning** — Hard vs soft prompts | Prompt Engineering | [Read →](questions/prompt-engineering/12-engineering-vs-tuning.md) |
+| 59 | **Prompt Templates** — Parameterized production prompts | Prompt Engineering | [Read →](questions/prompt-engineering/13-prompt-templates.md) |
+| 60 | **Multi-Turn** — Conversation context management | Prompt Engineering | [Read →](questions/prompt-engineering/14-multi-turn-conversations.md) |
+| 61 | **Role Prompting** — Persona-based behavior control | Prompt Engineering | [Read →](questions/prompt-engineering/15-role-prompting.md) |
+| 62 | **Prompt Chaining** — Sequential task decomposition | Prompt Engineering | [Read →](questions/prompt-engineering/16-prompt-chaining.md) |
+| 63 | **Evaluating Prompts** — Metrics, LLM-as-judge, DSPy | Prompt Engineering | [Read →](questions/prompt-engineering/17-evaluating-prompt-quality.md) |
+| 64 | **Meta-Prompts** — Prompts that generate prompts | Prompt Engineering | [Read →](questions/prompt-engineering/18-meta-prompts.md) |
+| 65 | **Failure Modes** — Debugging prompt issues | Prompt Engineering | [Read →](questions/prompt-engineering/19-failure-modes.md) |
+| 66 | **Edge Cases** — Adversarial and boundary inputs | Prompt Engineering | [Read →](questions/prompt-engineering/20-edge-cases.md) |
+| 67 | **Lost in the Middle** — Long-context attention bias | Prompt Engineering | [Read →](questions/prompt-engineering/21-lost-in-the-middle.md) |
+| 68 | **Output Parsers** — Text to structured data | Prompt Engineering | [Read →](questions/prompt-engineering/22-output-parsers.md) |
+| 69 | **Multi-Language** — Cross-lingual prompting | Prompt Engineering | [Read →](questions/prompt-engineering/23-multi-language-prompting.md) |
 
 > More deep dives are added regularly. ⭐ Star the repo to stay updated.
 
@@ -200,39 +223,39 @@ Every question includes:
 
 ### Conceptual Questions
 
-- What is prompt engineering, and why is it critical for AI applications?
-- Explain zero-shot, one-shot, and few-shot prompting with examples.
-- What is chain-of-thought (CoT) prompting, and when should you use it?
-- Explain self-consistency prompting and how it improves reasoning.
-- What is tree-of-thought prompting?
-- What is ReAct (Reasoning + Acting) prompting, and how does it work?
-- What is a system prompt, and how does it influence model behavior?
-- How do you structure prompts for consistent structured output (JSON, XML)?
-- What is prompt injection, and how do you defend against it?
-- What is jailbreaking in LLMs, and what are common jailbreak techniques?
-- How do you optimize prompts for cost and latency?
-- What is the difference between prompt engineering and prompt tuning?
-- What is a prompt template, and how do you design one for production use?
-- How do you handle multi-turn conversations with LLMs?
-- What is role prompting, and when is it effective?
-- What is prompt chaining, and how do you design a chain of prompts for complex tasks?
-- How do you evaluate and iterate on prompt quality?
-- What are meta-prompts, and how can they be used to generate prompts?
-- What are the common failure modes in prompting, and how do you debug them?
-- How do you handle edge cases and adversarial inputs in prompt design?
-- What is the "lost in the middle" problem in long-context prompting?
-- What are output parsers, and why are they needed for production applications?
-- How do you handle multi-language prompting effectively?
+- What is prompt engineering, and why is it critical for AI applications? — [Read Answer →](questions/prompt-engineering/01-what-is-prompt-engineering.md)
+- Explain zero-shot, one-shot, and few-shot prompting with examples. — [Read Answer →](questions/prompt-engineering/02-zero-one-few-shot.md)
+- What is chain-of-thought (CoT) prompting, and when should you use it? — [Read Answer →](questions/prompt-engineering/03-chain-of-thought.md)
+- Explain self-consistency prompting and how it improves reasoning. — [Read Answer →](questions/prompt-engineering/04-self-consistency.md)
+- What is tree-of-thought prompting? — [Read Answer →](questions/prompt-engineering/05-tree-of-thought.md)
+- What is ReAct (Reasoning + Acting) prompting, and how does it work? — [Read Answer →](questions/prompt-engineering/06-react-prompting.md)
+- What is a system prompt, and how does it influence model behavior? — [Read Answer →](questions/prompt-engineering/07-system-prompts.md)
+- How do you structure prompts for consistent structured output (JSON, XML)? — [Read Answer →](questions/prompt-engineering/08-structured-output-prompting.md)
+- What is prompt injection, and how do you defend against it? — [Read Answer →](questions/prompt-engineering/09-prompt-injection.md)
+- What is jailbreaking in LLMs, and what are common jailbreak techniques? — [Read Answer →](questions/prompt-engineering/10-jailbreaking.md)
+- How do you optimize prompts for cost and latency? — [Read Answer →](questions/prompt-engineering/11-cost-latency-optimization.md)
+- What is the difference between prompt engineering and prompt tuning? — [Read Answer →](questions/prompt-engineering/12-engineering-vs-tuning.md)
+- What is a prompt template, and how do you design one for production use? — [Read Answer →](questions/prompt-engineering/13-prompt-templates.md)
+- How do you handle multi-turn conversations with LLMs? — [Read Answer →](questions/prompt-engineering/14-multi-turn-conversations.md)
+- What is role prompting, and when is it effective? — [Read Answer →](questions/prompt-engineering/15-role-prompting.md)
+- What is prompt chaining, and how do you design a chain of prompts for complex tasks? — [Read Answer →](questions/prompt-engineering/16-prompt-chaining.md)
+- How do you evaluate and iterate on prompt quality? — [Read Answer →](questions/prompt-engineering/17-evaluating-prompt-quality.md)
+- What are meta-prompts, and how can they be used to generate prompts? — [Read Answer →](questions/prompt-engineering/18-meta-prompts.md)
+- What are the common failure modes in prompting, and how do you debug them? — [Read Answer →](questions/prompt-engineering/19-failure-modes.md)
+- How do you handle edge cases and adversarial inputs in prompt design? — [Read Answer →](questions/prompt-engineering/20-edge-cases.md)
+- What is the "lost in the middle" problem in long-context prompting? — [Read Answer →](questions/prompt-engineering/21-lost-in-the-middle.md)
+- What are output parsers, and why are they needed for production applications? — [Read Answer →](questions/prompt-engineering/22-output-parsers.md)
+- How do you handle multi-language prompting effectively? — [Read Answer →](questions/prompt-engineering/23-multi-language-prompting.md)
 
 ### Scenario-Based Questions
 
-- Your few-shot prompting gives inconsistent results across similar inputs. How do you stabilize it?
-- Your LLM classification system is too sensitive to prompt wording changes. How do you reduce prompt sensitivity?
-- Your chatbot's system prompt containing proprietary business logic is being leaked by users. How do you prevent it?
-- Your LLM agent is vulnerable to prompt injection that reveals the system prompt. How do you defend it?
-- Your chain-of-thought prompting is not improving LLM accuracy on reasoning tasks. What do you fix?
-- Your AI system works in English but fails for other languages. How do you add multilingual support?
-- Your zero-shot cross-lingual transfer from English fails on other languages. How do you fix it?
+- Your few-shot prompting gives inconsistent results across similar inputs. How do you stabilize it? — [Read Answer →](questions/prompt-engineering/24-scenario-inconsistent-few-shot.md)
+- Your LLM classification system is too sensitive to prompt wording changes. How do you reduce prompt sensitivity? — [Read Answer →](questions/prompt-engineering/25-scenario-prompt-sensitivity.md)
+- Your chatbot's system prompt containing proprietary business logic is being leaked by users. How do you prevent it? — [Read Answer →](questions/prompt-engineering/26-scenario-system-prompt-leak.md)
+- Your LLM agent is vulnerable to prompt injection that reveals the system prompt. How do you defend it? — [Read Answer →](questions/prompt-engineering/27-scenario-injection-defense.md)
+- Your chain-of-thought prompting is not improving LLM accuracy on reasoning tasks. What do you fix? — [Read Answer →](questions/prompt-engineering/28-scenario-cot-not-working.md)
+- Your AI system works in English but fails for other languages. How do you add multilingual support? — [Read Answer →](questions/prompt-engineering/29-scenario-multilingual-support.md)
+- Your zero-shot cross-lingual transfer from English fails on other languages. How do you fix it? — [Read Answer →](questions/prompt-engineering/30-scenario-cross-lingual-failure.md)
 
 ---
 
