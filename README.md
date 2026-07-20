@@ -1,8 +1,8 @@
-# AI & ML Engineering Interview Questions — Deep Technical Breakdowns
+# AI & ML Engineering Interview Questions:Deep Technical Breakdowns
 
 **Your cheat sheet for AI engineering interviews.**
 
-A growing collection of real AI and ML engineering interview questions, broken down with detailed technical answers. No surface-level definitions — each question walks through the actual mechanics: how transformers process tokens at inference time, why LLMs hallucinate, how RLHF shapes model behavior, what makes RAG retrieval fail, and the engineering decisions behind serving models in production.
+A growing collection of real AI and ML engineering interview questions, broken down with detailed technical answers. No surface-level definitions; each question walks through the actual mechanics: how transformers process tokens at inference time, why LLMs hallucinate, how RLHF shapes model behavior, what makes RAG retrieval fail, and the engineering decisions behind serving models in production.
 
 ---
 
