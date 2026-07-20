@@ -39,74 +39,74 @@ Every question includes:
 | # | Topic | Category | Link |
 |---|-------|----------|------|
 | 01 | **The Inference Loop** — What happens under the hood when a user prompts an LLM? | LLM Fundamentals | [Read →](questions/01-the-inference-loop/README.md) |
-| 02 | **Foundation Models** — How they changed AI engineering | LLM Fundamentals | [Read →](questions/llm-fundamentals/01-foundation-models.md) |
-| 03 | **What Is an LLM** — Architecture, training, and how it works | LLM Fundamentals | [Read →](questions/llm-fundamentals/02-what-is-an-llm.md) |
-| 04 | **Inside ChatGPT** — Full request lifecycle from Enter to response | LLM Fundamentals | [Read →](questions/llm-fundamentals/03-inside-chatgpt.md) |
-| 05 | **Transformer Architecture** — Complete data flow walkthrough | LLM Fundamentals | [Read →](questions/llm-fundamentals/04-transformer-architecture.md) |
-| 06 | **Transformer Components** — Every building block explained | LLM Fundamentals | [Read →](questions/llm-fundamentals/05-transformer-components.md) |
-| 07 | **Tokenization** — BPE, subwords, and why tokens ≠ words | LLM Fundamentals | [Read →](questions/llm-fundamentals/06-tokenization.md) |
-| 08 | **Byte Pair Encoding** — The algorithm step by step | LLM Fundamentals | [Read →](questions/llm-fundamentals/07-bpe.md) |
-| 09 | **WordPiece & SentencePiece** — Tokenizer comparison | LLM Fundamentals | [Read →](questions/llm-fundamentals/08-wordpiece-sentencepiece.md) |
-| 10 | **Positional Encoding** — Sinusoidal, learned, RoPE, ALiBi | LLM Fundamentals | [Read →](questions/llm-fundamentals/09-positional-encoding.md) |
-| 11 | **Embeddings** — Vectors, similarity, and semantic geometry | LLM Fundamentals | [Read →](questions/llm-fundamentals/10-embeddings.md) |
-| 12 | **Q/K/V Attention** — The database lookup analogy | LLM Fundamentals | [Read →](questions/llm-fundamentals/11-qkv-attention.md) |
-| 13 | **Self-Attention** — How tokens relate to each other | LLM Fundamentals | [Read →](questions/llm-fundamentals/12-self-attention.md) |
-| 14 | **Cross Attention** — Connecting encoder and decoder | LLM Fundamentals | [Read →](questions/llm-fundamentals/13-cross-attention.md) |
-| 15 | **√dₖ Scaling Factor** — Why we scale attention scores | LLM Fundamentals | [Read →](questions/llm-fundamentals/14-scaling-factor.md) |
-| 16 | **Causal Masking** — Preventing future token leakage | LLM Fundamentals | [Read →](questions/llm-fundamentals/15-causal-masking.md) |
-| 17 | **Multi-Head Attention** — Parallel specialized heads | LLM Fundamentals | [Read →](questions/llm-fundamentals/16-multi-head-attention.md) |
-| 18 | **Feed-Forward Networks** — The knowledge store in Transformers | LLM Fundamentals | [Read →](questions/llm-fundamentals/17-feed-forward-networks.md) |
-| 19 | **Context Window** — Limits, costs, and optimization | LLM Fundamentals | [Read →](questions/llm-fundamentals/18-context-window.md) |
-| 20 | **Temperature** — Controlling randomness in generation | LLM Fundamentals | [Read →](questions/llm-fundamentals/19-temperature.md) |
-| 21 | **First Token Latency** — Prefill vs decode phases | LLM Fundamentals | [Read →](questions/llm-fundamentals/20-first-token-latency.md) |
-| 22 | **Top-p & Top-k Sampling** — Adaptive vs fixed decoding | LLM Fundamentals | [Read →](questions/llm-fundamentals/21-top-p-top-k.md) |
-| 23 | **Logits** — Raw scores, log-probs, constrained decoding | LLM Fundamentals | [Read →](questions/llm-fundamentals/22-logits.md) |
-| 24 | **Residual Connections** — Skip connections and gradient flow | LLM Fundamentals | [Read →](questions/llm-fundamentals/23-residual-connections.md) |
-| 25 | **Open vs Closed-Source LLMs** — Cost, privacy, quality trade-offs | LLM Fundamentals | [Read →](questions/llm-fundamentals/24-open-vs-closed-source.md) |
-| 26 | **Architecture Variants** — Encoder-only, decoder-only, encoder-decoder | LLM Fundamentals | [Read →](questions/llm-fundamentals/25-encoder-decoder-architectures.md) |
-| 27 | **KV Cache** — Eliminating redundant computation | LLM Fundamentals | [Read →](questions/llm-fundamentals/26-kv-cache.md) |
-| 28 | **Model Distillation** — Teacher-student knowledge transfer | LLM Fundamentals | [Read →](questions/llm-fundamentals/27-model-distillation.md) |
-| 29 | **Mixture of Experts (MoE)** — Sparse expert routing | LLM Fundamentals | [Read →](questions/llm-fundamentals/28-mixture-of-experts.md) |
-| 30 | **Dense vs Sparse Models** — Activation pattern trade-offs | LLM Fundamentals | [Read →](questions/llm-fundamentals/29-dense-vs-sparse.md) |
-| 31 | **Flash Attention** — IO-aware tiled attention computation | LLM Fundamentals | [Read →](questions/llm-fundamentals/30-flash-attention.md) |
-| 32 | **Cross-Entropy Loss** — The LLM training objective | LLM Fundamentals | [Read →](questions/llm-fundamentals/31-cross-entropy-loss.md) |
-| 33 | **GQA** — Grouped-Query Attention for inference efficiency | LLM Fundamentals | [Read →](questions/llm-fundamentals/32-gqa.md) |
-| 34 | **RoPE** — Rotary Position Embedding mechanics | LLM Fundamentals | [Read →](questions/llm-fundamentals/33-rope.md) |
-| 35 | **Layer Normalization** — Stabilizing deep network training | LLM Fundamentals | [Read →](questions/llm-fundamentals/34-layer-normalization.md) |
-| 36 | **RMSNorm** — Simplified normalization for modern LLMs | LLM Fundamentals | [Read →](questions/llm-fundamentals/35-rmsnorm.md) |
-| 37 | **Autoregressive Models** — Sequential token generation | LLM Fundamentals | [Read →](questions/llm-fundamentals/36-autoregressive-models.md) |
-| 38 | **AR vs MLM** — Autoregressive vs masked language modeling | LLM Fundamentals | [Read →](questions/llm-fundamentals/37-autoregressive-vs-mlm.md) |
-| 39 | **PPO** — Proximal Policy Optimization in RLHF | LLM Fundamentals | [Read →](questions/llm-fundamentals/38-ppo.md) |
-| 40 | **DPO** — Direct Preference Optimization | LLM Fundamentals | [Read →](questions/llm-fundamentals/39-dpo.md) |
-| 41 | **GRPO** — Group Relative Policy Optimization | LLM Fundamentals | [Read →](questions/llm-fundamentals/40-grpo.md) |
-| 42 | **Recursive Language Models** — Iterative refinement | LLM Fundamentals | [Read →](questions/llm-fundamentals/41-recursive-language-models.md) |
-| 43 | **Continual Learning** — Updating LLMs without forgetting | LLM Fundamentals | [Read →](questions/llm-fundamentals/42-continual-learning.md) |
-| 44 | **Diffusion Language Models** — Non-autoregressive generation | LLM Fundamentals | [Read →](questions/llm-fundamentals/43-diffusion-language-models.md) |
-| 45 | **Small Language Models** — Efficient 1-7B models | LLM Fundamentals | [Read →](questions/llm-fundamentals/44-small-language-models.md) |
-| 46 | **Large Reasoning Models** — Test-time compute scaling | LLM Fundamentals | [Read →](questions/llm-fundamentals/45-large-reasoning-models.md) |
-| 47 | **What Is Prompt Engineering** — The prompt stack and discipline | Prompt Engineering | [Read →](questions/prompt-engineering/01-what-is-prompt-engineering.md) |
-| 48 | **Zero/One/Few-Shot** — In-context learning spectrum | Prompt Engineering | [Read →](questions/prompt-engineering/02-zero-one-few-shot.md) |
-| 49 | **Chain-of-Thought** — Step-by-step reasoning | Prompt Engineering | [Read →](questions/prompt-engineering/03-chain-of-thought.md) |
-| 50 | **Self-Consistency** — Majority voting over CoT chains | Prompt Engineering | [Read →](questions/prompt-engineering/04-self-consistency.md) |
-| 51 | **Tree-of-Thought** — Branching search with evaluation | Prompt Engineering | [Read →](questions/prompt-engineering/05-tree-of-thought.md) |
-| 52 | **ReAct Prompting** — Reasoning + Acting loops | Prompt Engineering | [Read →](questions/prompt-engineering/06-react-prompting.md) |
-| 53 | **System Prompts** — Persistent behavioral instructions | Prompt Engineering | [Read →](questions/prompt-engineering/07-system-prompts.md) |
-| 54 | **Structured Output** — JSON/XML schema enforcement | Prompt Engineering | [Read →](questions/prompt-engineering/08-structured-output-prompting.md) |
-| 55 | **Prompt Injection** — Attack vectors and defenses | Prompt Engineering | [Read →](questions/prompt-engineering/09-prompt-injection.md) |
-| 56 | **Jailbreaking** — Safety bypass techniques | Prompt Engineering | [Read →](questions/prompt-engineering/10-jailbreaking.md) |
-| 57 | **Cost & Latency** — Optimizing prompt economics | Prompt Engineering | [Read →](questions/prompt-engineering/11-cost-latency-optimization.md) |
-| 58 | **Engineering vs Tuning** — Hard vs soft prompts | Prompt Engineering | [Read →](questions/prompt-engineering/12-engineering-vs-tuning.md) |
-| 59 | **Prompt Templates** — Parameterized production prompts | Prompt Engineering | [Read →](questions/prompt-engineering/13-prompt-templates.md) |
-| 60 | **Multi-Turn** — Conversation context management | Prompt Engineering | [Read →](questions/prompt-engineering/14-multi-turn-conversations.md) |
-| 61 | **Role Prompting** — Persona-based behavior control | Prompt Engineering | [Read →](questions/prompt-engineering/15-role-prompting.md) |
-| 62 | **Prompt Chaining** — Sequential task decomposition | Prompt Engineering | [Read →](questions/prompt-engineering/16-prompt-chaining.md) |
-| 63 | **Evaluating Prompts** — Metrics, LLM-as-judge, DSPy | Prompt Engineering | [Read →](questions/prompt-engineering/17-evaluating-prompt-quality.md) |
-| 64 | **Meta-Prompts** — Prompts that generate prompts | Prompt Engineering | [Read →](questions/prompt-engineering/18-meta-prompts.md) |
-| 65 | **Failure Modes** — Debugging prompt issues | Prompt Engineering | [Read →](questions/prompt-engineering/19-failure-modes.md) |
-| 66 | **Edge Cases** — Adversarial and boundary inputs | Prompt Engineering | [Read →](questions/prompt-engineering/20-edge-cases.md) |
-| 67 | **Lost in the Middle** — Long-context attention bias | Prompt Engineering | [Read →](questions/prompt-engineering/21-lost-in-the-middle.md) |
-| 68 | **Output Parsers** — Text to structured data | Prompt Engineering | [Read →](questions/prompt-engineering/22-output-parsers.md) |
-| 69 | **Multi-Language** — Cross-lingual prompting | Prompt Engineering | [Read →](questions/prompt-engineering/23-multi-language-prompting.md) |
+| 02 | **Foundation Models** — How they changed AI engineering | LLM Fundamentals | [Read →](llm-fundamentals/01-foundation-models.md) |
+| 03 | **What Is an LLM** — Architecture, training, and how it works | LLM Fundamentals | [Read →](llm-fundamentals/02-what-is-an-llm.md) |
+| 04 | **Inside ChatGPT** — Full request lifecycle from Enter to response | LLM Fundamentals | [Read →](llm-fundamentals/03-inside-chatgpt.md) |
+| 05 | **Transformer Architecture** — Complete data flow walkthrough | LLM Fundamentals | [Read →](llm-fundamentals/04-transformer-architecture.md) |
+| 06 | **Transformer Components** — Every building block explained | LLM Fundamentals | [Read →](llm-fundamentals/05-transformer-components.md) |
+| 07 | **Tokenization** — BPE, subwords, and why tokens ≠ words | LLM Fundamentals | [Read →](llm-fundamentals/06-tokenization.md) |
+| 08 | **Byte Pair Encoding** — The algorithm step by step | LLM Fundamentals | [Read →](llm-fundamentals/07-bpe.md) |
+| 09 | **WordPiece & SentencePiece** — Tokenizer comparison | LLM Fundamentals | [Read →](llm-fundamentals/08-wordpiece-sentencepiece.md) |
+| 10 | **Positional Encoding** — Sinusoidal, learned, RoPE, ALiBi | LLM Fundamentals | [Read →](llm-fundamentals/09-positional-encoding.md) |
+| 11 | **Embeddings** — Vectors, similarity, and semantic geometry | LLM Fundamentals | [Read →](llm-fundamentals/10-embeddings.md) |
+| 12 | **Q/K/V Attention** — The database lookup analogy | LLM Fundamentals | [Read →](llm-fundamentals/11-qkv-attention.md) |
+| 13 | **Self-Attention** — How tokens relate to each other | LLM Fundamentals | [Read →](llm-fundamentals/12-self-attention.md) |
+| 14 | **Cross Attention** — Connecting encoder and decoder | LLM Fundamentals | [Read →](llm-fundamentals/13-cross-attention.md) |
+| 15 | **√dₖ Scaling Factor** — Why we scale attention scores | LLM Fundamentals | [Read →](llm-fundamentals/14-scaling-factor.md) |
+| 16 | **Causal Masking** — Preventing future token leakage | LLM Fundamentals | [Read →](llm-fundamentals/15-causal-masking.md) |
+| 17 | **Multi-Head Attention** — Parallel specialized heads | LLM Fundamentals | [Read →](llm-fundamentals/16-multi-head-attention.md) |
+| 18 | **Feed-Forward Networks** — The knowledge store in Transformers | LLM Fundamentals | [Read →](llm-fundamentals/17-feed-forward-networks.md) |
+| 19 | **Context Window** — Limits, costs, and optimization | LLM Fundamentals | [Read →](llm-fundamentals/18-context-window.md) |
+| 20 | **Temperature** — Controlling randomness in generation | LLM Fundamentals | [Read →](llm-fundamentals/19-temperature.md) |
+| 21 | **First Token Latency** — Prefill vs decode phases | LLM Fundamentals | [Read →](llm-fundamentals/20-first-token-latency.md) |
+| 22 | **Top-p & Top-k Sampling** — Adaptive vs fixed decoding | LLM Fundamentals | [Read →](llm-fundamentals/21-top-p-top-k.md) |
+| 23 | **Logits** — Raw scores, log-probs, constrained decoding | LLM Fundamentals | [Read →](llm-fundamentals/22-logits.md) |
+| 24 | **Residual Connections** — Skip connections and gradient flow | LLM Fundamentals | [Read →](llm-fundamentals/23-residual-connections.md) |
+| 25 | **Open vs Closed-Source LLMs** — Cost, privacy, quality trade-offs | LLM Fundamentals | [Read →](llm-fundamentals/24-open-vs-closed-source.md) |
+| 26 | **Architecture Variants** — Encoder-only, decoder-only, encoder-decoder | LLM Fundamentals | [Read →](llm-fundamentals/25-encoder-decoder-architectures.md) |
+| 27 | **KV Cache** — Eliminating redundant computation | LLM Fundamentals | [Read →](llm-fundamentals/26-kv-cache.md) |
+| 28 | **Model Distillation** — Teacher-student knowledge transfer | LLM Fundamentals | [Read →](llm-fundamentals/27-model-distillation.md) |
+| 29 | **Mixture of Experts (MoE)** — Sparse expert routing | LLM Fundamentals | [Read →](llm-fundamentals/28-mixture-of-experts.md) |
+| 30 | **Dense vs Sparse Models** — Activation pattern trade-offs | LLM Fundamentals | [Read →](llm-fundamentals/29-dense-vs-sparse.md) |
+| 31 | **Flash Attention** — IO-aware tiled attention computation | LLM Fundamentals | [Read →](llm-fundamentals/30-flash-attention.md) |
+| 32 | **Cross-Entropy Loss** — The LLM training objective | LLM Fundamentals | [Read →](llm-fundamentals/31-cross-entropy-loss.md) |
+| 33 | **GQA** — Grouped-Query Attention for inference efficiency | LLM Fundamentals | [Read →](llm-fundamentals/32-gqa.md) |
+| 34 | **RoPE** — Rotary Position Embedding mechanics | LLM Fundamentals | [Read →](llm-fundamentals/33-rope.md) |
+| 35 | **Layer Normalization** — Stabilizing deep network training | LLM Fundamentals | [Read →](llm-fundamentals/34-layer-normalization.md) |
+| 36 | **RMSNorm** — Simplified normalization for modern LLMs | LLM Fundamentals | [Read →](llm-fundamentals/35-rmsnorm.md) |
+| 37 | **Autoregressive Models** — Sequential token generation | LLM Fundamentals | [Read →](llm-fundamentals/36-autoregressive-models.md) |
+| 38 | **AR vs MLM** — Autoregressive vs masked language modeling | LLM Fundamentals | [Read →](llm-fundamentals/37-autoregressive-vs-mlm.md) |
+| 39 | **PPO** — Proximal Policy Optimization in RLHF | LLM Fundamentals | [Read →](llm-fundamentals/38-ppo.md) |
+| 40 | **DPO** — Direct Preference Optimization | LLM Fundamentals | [Read →](llm-fundamentals/39-dpo.md) |
+| 41 | **GRPO** — Group Relative Policy Optimization | LLM Fundamentals | [Read →](llm-fundamentals/40-grpo.md) |
+| 42 | **Recursive Language Models** — Iterative refinement | LLM Fundamentals | [Read →](llm-fundamentals/41-recursive-language-models.md) |
+| 43 | **Continual Learning** — Updating LLMs without forgetting | LLM Fundamentals | [Read →](llm-fundamentals/42-continual-learning.md) |
+| 44 | **Diffusion Language Models** — Non-autoregressive generation | LLM Fundamentals | [Read →](llm-fundamentals/43-diffusion-language-models.md) |
+| 45 | **Small Language Models** — Efficient 1-7B models | LLM Fundamentals | [Read →](llm-fundamentals/44-small-language-models.md) |
+| 46 | **Large Reasoning Models** — Test-time compute scaling | LLM Fundamentals | [Read →](llm-fundamentals/45-large-reasoning-models.md) |
+| 47 | **What Is Prompt Engineering** — The prompt stack and discipline | Prompt Engineering | [Read →](prompt-engineering/01-what-is-prompt-engineering.md) |
+| 48 | **Zero/One/Few-Shot** — In-context learning spectrum | Prompt Engineering | [Read →](prompt-engineering/02-zero-one-few-shot.md) |
+| 49 | **Chain-of-Thought** — Step-by-step reasoning | Prompt Engineering | [Read →](prompt-engineering/03-chain-of-thought.md) |
+| 50 | **Self-Consistency** — Majority voting over CoT chains | Prompt Engineering | [Read →](prompt-engineering/04-self-consistency.md) |
+| 51 | **Tree-of-Thought** — Branching search with evaluation | Prompt Engineering | [Read →](prompt-engineering/05-tree-of-thought.md) |
+| 52 | **ReAct Prompting** — Reasoning + Acting loops | Prompt Engineering | [Read →](prompt-engineering/06-react-prompting.md) |
+| 53 | **System Prompts** — Persistent behavioral instructions | Prompt Engineering | [Read →](prompt-engineering/07-system-prompts.md) |
+| 54 | **Structured Output** — JSON/XML schema enforcement | Prompt Engineering | [Read →](prompt-engineering/08-structured-output-prompting.md) |
+| 55 | **Prompt Injection** — Attack vectors and defenses | Prompt Engineering | [Read →](prompt-engineering/09-prompt-injection.md) |
+| 56 | **Jailbreaking** — Safety bypass techniques | Prompt Engineering | [Read →](prompt-engineering/10-jailbreaking.md) |
+| 57 | **Cost & Latency** — Optimizing prompt economics | Prompt Engineering | [Read →](prompt-engineering/11-cost-latency-optimization.md) |
+| 58 | **Engineering vs Tuning** — Hard vs soft prompts | Prompt Engineering | [Read →](prompt-engineering/12-engineering-vs-tuning.md) |
+| 59 | **Prompt Templates** — Parameterized production prompts | Prompt Engineering | [Read →](prompt-engineering/13-prompt-templates.md) |
+| 60 | **Multi-Turn** — Conversation context management | Prompt Engineering | [Read →](prompt-engineering/14-multi-turn-conversations.md) |
+| 61 | **Role Prompting** — Persona-based behavior control | Prompt Engineering | [Read →](prompt-engineering/15-role-prompting.md) |
+| 62 | **Prompt Chaining** — Sequential task decomposition | Prompt Engineering | [Read →](prompt-engineering/16-prompt-chaining.md) |
+| 63 | **Evaluating Prompts** — Metrics, LLM-as-judge, DSPy | Prompt Engineering | [Read →](prompt-engineering/17-evaluating-prompt-quality.md) |
+| 64 | **Meta-Prompts** — Prompts that generate prompts | Prompt Engineering | [Read →](prompt-engineering/18-meta-prompts.md) |
+| 65 | **Failure Modes** — Debugging prompt issues | Prompt Engineering | [Read →](prompt-engineering/19-failure-modes.md) |
+| 66 | **Edge Cases** — Adversarial and boundary inputs | Prompt Engineering | [Read →](prompt-engineering/20-edge-cases.md) |
+| 67 | **Lost in the Middle** — Long-context attention bias | Prompt Engineering | [Read →](prompt-engineering/21-lost-in-the-middle.md) |
+| 68 | **Output Parsers** — Text to structured data | Prompt Engineering | [Read →](prompt-engineering/22-output-parsers.md) |
+| 69 | **Multi-Language** — Cross-lingual prompting | Prompt Engineering | [Read →](prompt-engineering/23-multi-language-prompting.md) |
 
 > More deep dives are added regularly. ⭐ Star the repo to stay updated.
 
@@ -149,73 +149,73 @@ Every question includes:
 
 ### Conceptual Questions
 
-- What are foundation models, and how have they changed AI engineering? — [Read Answer →](questions/llm-fundamentals/01-foundation-models.md)
-- What is a Large Language Model (LLM), and how does it work? — [Read Answer →](questions/llm-fundamentals/02-what-is-an-llm.md)
-- Inside ChatGPT: What Happens After You Hit Enter? — [Read Answer →](questions/llm-fundamentals/03-inside-chatgpt.md)
-- What is the Transformer architecture and how does it work? — [Read Answer →](questions/llm-fundamentals/04-transformer-architecture.md)
-- What are the key components of the Transformer architecture? — [Read Answer →](questions/llm-fundamentals/05-transformer-components.md)
-- What is tokenization in LLMs? — [Read Answer →](questions/llm-fundamentals/06-tokenization.md)
-- Explain BPE (Byte Pair Encoding). — [Read Answer →](questions/llm-fundamentals/07-bpe.md)
-- Explain WordPiece and SentencePiece. — [Read Answer →](questions/llm-fundamentals/08-wordpiece-sentencepiece.md)
-- What is positional encoding, and why is it needed in Transformers? — [Read Answer →](questions/llm-fundamentals/09-positional-encoding.md)
-- What are embeddings? — [Read Answer →](questions/llm-fundamentals/10-embeddings.md)
-- Explain the Query(Q), Key(K), and Value(V) in attention. — [Read Answer →](questions/llm-fundamentals/11-qkv-attention.md)
-- What is self-attention, and how does it work in Transformers? — [Read Answer →](questions/llm-fundamentals/12-self-attention.md)
-- What is Cross Attention in Transformers? — [Read Answer →](questions/llm-fundamentals/13-cross-attention.md)
-- Why do we scale the dot product attention by √dₖ in the Transformer architecture? — [Read Answer →](questions/llm-fundamentals/14-scaling-factor.md)
-- What is causal masking? — [Read Answer →](questions/llm-fundamentals/15-causal-masking.md)
-- What are multi-head attention mechanisms? Why use multiple attention heads? — [Read Answer →](questions/llm-fundamentals/16-multi-head-attention.md)
-- What are Feed-Forward Networks in LLMs? — [Read Answer →](questions/llm-fundamentals/17-feed-forward-networks.md)
-- What is the context window in LLMs, and why does it matter? — [Read Answer →](questions/llm-fundamentals/18-context-window.md)
-- Why is the context window limited in LLMs? — [Read Answer →](questions/llm-fundamentals/18-context-window.md)
-- What is temperature in the context of LLMs, and how does it affect output? — [Read Answer →](questions/llm-fundamentals/19-temperature.md)
-- Why is the first token slower than the rest in an LLM? — [Read Answer →](questions/llm-fundamentals/20-first-token-latency.md)
-- Explain Top-p (nucleus) sampling and Top-k sampling. How do they differ? — [Read Answer →](questions/llm-fundamentals/21-top-p-top-k.md)
-- What are logits, and how are they used in text generation? — [Read Answer →](questions/llm-fundamentals/22-logits.md)
-- What are skip connections (residual connections) in Transformers? — [Read Answer →](questions/llm-fundamentals/23-residual-connections.md)
-- What is the difference between open-source and closed-source LLMs? When would you choose one over the other? — [Read Answer →](questions/llm-fundamentals/24-open-vs-closed-source.md)
-- What is the difference between encoder-only, decoder-only, and encoder-decoder Transformer architectures? — [Read Answer →](questions/llm-fundamentals/25-encoder-decoder-architectures.md)
-- What is KV cache, and how does it speed up inference? — [Read Answer →](questions/llm-fundamentals/26-kv-cache.md)
-- What is model distillation, and how is it used with LLMs? — [Read Answer →](questions/llm-fundamentals/27-model-distillation.md)
-- What is Mixture of Experts (MoE), and how does it work in models like Mixtral? — [Read Answer →](questions/llm-fundamentals/28-mixture-of-experts.md)
-- What is the difference between dense and sparse models? — [Read Answer →](questions/llm-fundamentals/29-dense-vs-sparse.md)
-- What is Flash Attention? — [Read Answer →](questions/llm-fundamentals/30-flash-attention.md)
-- What is Cross-Entropy Loss? — [Read Answer →](questions/llm-fundamentals/31-cross-entropy-loss.md)
-- What is Grouped-Query Attention (GQA), and how does it differ from Multi-Head Attention (MHA)? — [Read Answer →](questions/llm-fundamentals/32-gqa.md)
-- How does Rotary Position Embedding (RoPE) work, and why is it preferred over learned positional embeddings? — [Read Answer →](questions/llm-fundamentals/33-rope.md)
-- Explain Layer Normalization. — [Read Answer →](questions/llm-fundamentals/34-layer-normalization.md)
-- Explain RMSNorm (Root Mean Square Layer Normalization). — [Read Answer →](questions/llm-fundamentals/35-rmsnorm.md)
-- What are Autoregressive Models? — [Read Answer →](questions/llm-fundamentals/36-autoregressive-models.md)
-- Explain the difference between autoregressive and masked language modeling. — [Read Answer →](questions/llm-fundamentals/37-autoregressive-vs-mlm.md)
-- Proximal Policy Optimization (PPO). — [Read Answer →](questions/llm-fundamentals/38-ppo.md)
-- Direct Preference Optimization (DPO). — [Read Answer →](questions/llm-fundamentals/39-dpo.md)
-- Group Relative Policy Optimization (GRPO). — [Read Answer →](questions/llm-fundamentals/40-grpo.md)
-- Recursive Language Models (RLMs). — [Read Answer →](questions/llm-fundamentals/41-recursive-language-models.md)
-- Continual Learning in LLMs. — [Read Answer →](questions/llm-fundamentals/42-continual-learning.md)
-- How do Diffusion Language Models (DLMs) work? — [Read Answer →](questions/llm-fundamentals/43-diffusion-language-models.md)
-- Small Language Models (SLMs). — [Read Answer →](questions/llm-fundamentals/44-small-language-models.md)
-- Large Reasoning Models (LRMs). — [Read Answer →](questions/llm-fundamentals/45-large-reasoning-models.md)
+- What are foundation models, and how have they changed AI engineering? — [Read Answer →](llm-fundamentals/01-foundation-models.md)
+- What is a Large Language Model (LLM), and how does it work? — [Read Answer →](llm-fundamentals/02-what-is-an-llm.md)
+- Inside ChatGPT: What Happens After You Hit Enter? — [Read Answer →](llm-fundamentals/03-inside-chatgpt.md)
+- What is the Transformer architecture and how does it work? — [Read Answer →](llm-fundamentals/04-transformer-architecture.md)
+- What are the key components of the Transformer architecture? — [Read Answer →](llm-fundamentals/05-transformer-components.md)
+- What is tokenization in LLMs? — [Read Answer →](llm-fundamentals/06-tokenization.md)
+- Explain BPE (Byte Pair Encoding). — [Read Answer →](llm-fundamentals/07-bpe.md)
+- Explain WordPiece and SentencePiece. — [Read Answer →](llm-fundamentals/08-wordpiece-sentencepiece.md)
+- What is positional encoding, and why is it needed in Transformers? — [Read Answer →](llm-fundamentals/09-positional-encoding.md)
+- What are embeddings? — [Read Answer →](llm-fundamentals/10-embeddings.md)
+- Explain the Query(Q), Key(K), and Value(V) in attention. — [Read Answer →](llm-fundamentals/11-qkv-attention.md)
+- What is self-attention, and how does it work in Transformers? — [Read Answer →](llm-fundamentals/12-self-attention.md)
+- What is Cross Attention in Transformers? — [Read Answer →](llm-fundamentals/13-cross-attention.md)
+- Why do we scale the dot product attention by √dₖ in the Transformer architecture? — [Read Answer →](llm-fundamentals/14-scaling-factor.md)
+- What is causal masking? — [Read Answer →](llm-fundamentals/15-causal-masking.md)
+- What are multi-head attention mechanisms? Why use multiple attention heads? — [Read Answer →](llm-fundamentals/16-multi-head-attention.md)
+- What are Feed-Forward Networks in LLMs? — [Read Answer →](llm-fundamentals/17-feed-forward-networks.md)
+- What is the context window in LLMs, and why does it matter? — [Read Answer →](llm-fundamentals/18-context-window.md)
+- Why is the context window limited in LLMs? — [Read Answer →](llm-fundamentals/18-context-window.md)
+- What is temperature in the context of LLMs, and how does it affect output? — [Read Answer →](llm-fundamentals/19-temperature.md)
+- Why is the first token slower than the rest in an LLM? — [Read Answer →](llm-fundamentals/20-first-token-latency.md)
+- Explain Top-p (nucleus) sampling and Top-k sampling. How do they differ? — [Read Answer →](llm-fundamentals/21-top-p-top-k.md)
+- What are logits, and how are they used in text generation? — [Read Answer →](llm-fundamentals/22-logits.md)
+- What are skip connections (residual connections) in Transformers? — [Read Answer →](llm-fundamentals/23-residual-connections.md)
+- What is the difference between open-source and closed-source LLMs? When would you choose one over the other? — [Read Answer →](llm-fundamentals/24-open-vs-closed-source.md)
+- What is the difference between encoder-only, decoder-only, and encoder-decoder Transformer architectures? — [Read Answer →](llm-fundamentals/25-encoder-decoder-architectures.md)
+- What is KV cache, and how does it speed up inference? — [Read Answer →](llm-fundamentals/26-kv-cache.md)
+- What is model distillation, and how is it used with LLMs? — [Read Answer →](llm-fundamentals/27-model-distillation.md)
+- What is Mixture of Experts (MoE), and how does it work in models like Mixtral? — [Read Answer →](llm-fundamentals/28-mixture-of-experts.md)
+- What is the difference between dense and sparse models? — [Read Answer →](llm-fundamentals/29-dense-vs-sparse.md)
+- What is Flash Attention? — [Read Answer →](llm-fundamentals/30-flash-attention.md)
+- What is Cross-Entropy Loss? — [Read Answer →](llm-fundamentals/31-cross-entropy-loss.md)
+- What is Grouped-Query Attention (GQA), and how does it differ from Multi-Head Attention (MHA)? — [Read Answer →](llm-fundamentals/32-gqa.md)
+- How does Rotary Position Embedding (RoPE) work, and why is it preferred over learned positional embeddings? — [Read Answer →](llm-fundamentals/33-rope.md)
+- Explain Layer Normalization. — [Read Answer →](llm-fundamentals/34-layer-normalization.md)
+- Explain RMSNorm (Root Mean Square Layer Normalization). — [Read Answer →](llm-fundamentals/35-rmsnorm.md)
+- What are Autoregressive Models? — [Read Answer →](llm-fundamentals/36-autoregressive-models.md)
+- Explain the difference between autoregressive and masked language modeling. — [Read Answer →](llm-fundamentals/37-autoregressive-vs-mlm.md)
+- Proximal Policy Optimization (PPO). — [Read Answer →](llm-fundamentals/38-ppo.md)
+- Direct Preference Optimization (DPO). — [Read Answer →](llm-fundamentals/39-dpo.md)
+- Group Relative Policy Optimization (GRPO). — [Read Answer →](llm-fundamentals/40-grpo.md)
+- Recursive Language Models (RLMs). — [Read Answer →](llm-fundamentals/41-recursive-language-models.md)
+- Continual Learning in LLMs. — [Read Answer →](llm-fundamentals/42-continual-learning.md)
+- How do Diffusion Language Models (DLMs) work? — [Read Answer →](llm-fundamentals/43-diffusion-language-models.md)
+- Small Language Models (SLMs). — [Read Answer →](llm-fundamentals/44-small-language-models.md)
+- Large Reasoning Models (LRMs). — [Read Answer →](llm-fundamentals/45-large-reasoning-models.md)
 
 ### Scenario-Based Questions
 
-- Your LLM keeps ignoring your instructions. How do you make it follow structured output formats? — [Read Answer →](questions/llm-fundamentals/46-scenario-structured-output.md)
-- Your LLM-powered tool hits the context window limit on long documents. How do you handle it? — [Read Answer →](questions/llm-fundamentals/47-scenario-context-overflow.md)
-- Your LLM does not admit when it does not know the answer. How do you make it say "I don't know"? — [Read Answer →](questions/llm-fundamentals/48-scenario-i-dont-know.md)
-- Your LLM generates responses that are too verbose. How do you control response length? — [Read Answer →](questions/llm-fundamentals/49-scenario-verbosity.md)
-- Your LLM memorized proprietary training data and leaks it in responses. How do you prevent this? — [Read Answer →](questions/llm-fundamentals/50-scenario-data-leakage.md)
-- Your LLM coding assistant generates outdated code using deprecated libraries. How do you fix it? — [Read Answer →](questions/llm-fundamentals/51-scenario-outdated-code.md)
-- Your tokenizer splits important domain terms into meaningless subword pieces. How do you fix it? — [Read Answer →](questions/llm-fundamentals/52-scenario-tokenizer-domain.md)
-- Your Transformer's KV cache grows too large during long sequence generation. How do you manage memory? — [Read Answer →](questions/llm-fundamentals/53-scenario-kv-cache-memory.md)
-- Your Transformer runs out of memory on long documents due to quadratic self-attention. How do you scale it? — [Read Answer →](questions/llm-fundamentals/54-scenario-quadratic-attention.md)
-- Your distilled student model fails on the complex reasoning that the teacher model handled. How do you close the gap? — [Read Answer →](questions/llm-fundamentals/55-scenario-distillation-gap.md)
-- After RLHF alignment, your LLM became safer but lost capability on hard tasks. How do you manage the alignment tax? — [Read Answer →](questions/llm-fundamentals/56-scenario-alignment-tax.md)
-- Your RLHF-trained LLM is gaming the reward model instead of being genuinely helpful. How do you fix reward hacking? — [Read Answer →](questions/llm-fundamentals/57-scenario-reward-hacking.md)
-- Your chatbot loses context after 10 turns in a conversation. How do you maintain a long conversation context? — [Read Answer →](questions/llm-fundamentals/58-scenario-conversation-context.md)
-- Your chatbot fails when users switch topics mid-conversation. How do you handle topic switches? — [Read Answer →](questions/llm-fundamentals/59-scenario-topic-switching.md)
-- Your QA system always generates an answer even when no answer exists in the context. How do you detect unanswerable questions? — [Read Answer →](questions/llm-fundamentals/60-scenario-unanswerable.md)
-- Your summarization system hallucinated facts not in the original article. How do you fix it? — [Read Answer →](questions/llm-fundamentals/61-scenario-summarization-hallucination.md)
-- Your text generation repeats phrases in long outputs. How do you fix repetition? — [Read Answer →](questions/llm-fundamentals/62-scenario-repetition.md)
-- Transformers work on text, so can they also understand images? — [Read Answer →](questions/llm-fundamentals/63-scenario-multimodal-vision.md)
+- Your LLM keeps ignoring your instructions. How do you make it follow structured output formats? — [Read Answer →](llm-fundamentals/46-scenario-structured-output.md)
+- Your LLM-powered tool hits the context window limit on long documents. How do you handle it? — [Read Answer →](llm-fundamentals/47-scenario-context-overflow.md)
+- Your LLM does not admit when it does not know the answer. How do you make it say "I don't know"? — [Read Answer →](llm-fundamentals/48-scenario-i-dont-know.md)
+- Your LLM generates responses that are too verbose. How do you control response length? — [Read Answer →](llm-fundamentals/49-scenario-verbosity.md)
+- Your LLM memorized proprietary training data and leaks it in responses. How do you prevent this? — [Read Answer →](llm-fundamentals/50-scenario-data-leakage.md)
+- Your LLM coding assistant generates outdated code using deprecated libraries. How do you fix it? — [Read Answer →](llm-fundamentals/51-scenario-outdated-code.md)
+- Your tokenizer splits important domain terms into meaningless subword pieces. How do you fix it? — [Read Answer →](llm-fundamentals/52-scenario-tokenizer-domain.md)
+- Your Transformer's KV cache grows too large during long sequence generation. How do you manage memory? — [Read Answer →](llm-fundamentals/53-scenario-kv-cache-memory.md)
+- Your Transformer runs out of memory on long documents due to quadratic self-attention. How do you scale it? — [Read Answer →](llm-fundamentals/54-scenario-quadratic-attention.md)
+- Your distilled student model fails on the complex reasoning that the teacher model handled. How do you close the gap? — [Read Answer →](llm-fundamentals/55-scenario-distillation-gap.md)
+- After RLHF alignment, your LLM became safer but lost capability on hard tasks. How do you manage the alignment tax? — [Read Answer →](llm-fundamentals/56-scenario-alignment-tax.md)
+- Your RLHF-trained LLM is gaming the reward model instead of being genuinely helpful. How do you fix reward hacking? — [Read Answer →](llm-fundamentals/57-scenario-reward-hacking.md)
+- Your chatbot loses context after 10 turns in a conversation. How do you maintain a long conversation context? — [Read Answer →](llm-fundamentals/58-scenario-conversation-context.md)
+- Your chatbot fails when users switch topics mid-conversation. How do you handle topic switches? — [Read Answer →](llm-fundamentals/59-scenario-topic-switching.md)
+- Your QA system always generates an answer even when no answer exists in the context. How do you detect unanswerable questions? — [Read Answer →](llm-fundamentals/60-scenario-unanswerable.md)
+- Your summarization system hallucinated facts not in the original article. How do you fix it? — [Read Answer →](llm-fundamentals/61-scenario-summarization-hallucination.md)
+- Your text generation repeats phrases in long outputs. How do you fix repetition? — [Read Answer →](llm-fundamentals/62-scenario-repetition.md)
+- Transformers work on text, so can they also understand images? — [Read Answer →](llm-fundamentals/63-scenario-multimodal-vision.md)
 
 ---
 
@@ -223,39 +223,39 @@ Every question includes:
 
 ### Conceptual Questions
 
-- What is prompt engineering, and why is it critical for AI applications? — [Read Answer →](questions/prompt-engineering/01-what-is-prompt-engineering.md)
-- Explain zero-shot, one-shot, and few-shot prompting with examples. — [Read Answer →](questions/prompt-engineering/02-zero-one-few-shot.md)
-- What is chain-of-thought (CoT) prompting, and when should you use it? — [Read Answer →](questions/prompt-engineering/03-chain-of-thought.md)
-- Explain self-consistency prompting and how it improves reasoning. — [Read Answer →](questions/prompt-engineering/04-self-consistency.md)
-- What is tree-of-thought prompting? — [Read Answer →](questions/prompt-engineering/05-tree-of-thought.md)
-- What is ReAct (Reasoning + Acting) prompting, and how does it work? — [Read Answer →](questions/prompt-engineering/06-react-prompting.md)
-- What is a system prompt, and how does it influence model behavior? — [Read Answer →](questions/prompt-engineering/07-system-prompts.md)
-- How do you structure prompts for consistent structured output (JSON, XML)? — [Read Answer →](questions/prompt-engineering/08-structured-output-prompting.md)
-- What is prompt injection, and how do you defend against it? — [Read Answer →](questions/prompt-engineering/09-prompt-injection.md)
-- What is jailbreaking in LLMs, and what are common jailbreak techniques? — [Read Answer →](questions/prompt-engineering/10-jailbreaking.md)
-- How do you optimize prompts for cost and latency? — [Read Answer →](questions/prompt-engineering/11-cost-latency-optimization.md)
-- What is the difference between prompt engineering and prompt tuning? — [Read Answer →](questions/prompt-engineering/12-engineering-vs-tuning.md)
-- What is a prompt template, and how do you design one for production use? — [Read Answer →](questions/prompt-engineering/13-prompt-templates.md)
-- How do you handle multi-turn conversations with LLMs? — [Read Answer →](questions/prompt-engineering/14-multi-turn-conversations.md)
-- What is role prompting, and when is it effective? — [Read Answer →](questions/prompt-engineering/15-role-prompting.md)
-- What is prompt chaining, and how do you design a chain of prompts for complex tasks? — [Read Answer →](questions/prompt-engineering/16-prompt-chaining.md)
-- How do you evaluate and iterate on prompt quality? — [Read Answer →](questions/prompt-engineering/17-evaluating-prompt-quality.md)
-- What are meta-prompts, and how can they be used to generate prompts? — [Read Answer →](questions/prompt-engineering/18-meta-prompts.md)
-- What are the common failure modes in prompting, and how do you debug them? — [Read Answer →](questions/prompt-engineering/19-failure-modes.md)
-- How do you handle edge cases and adversarial inputs in prompt design? — [Read Answer →](questions/prompt-engineering/20-edge-cases.md)
-- What is the "lost in the middle" problem in long-context prompting? — [Read Answer →](questions/prompt-engineering/21-lost-in-the-middle.md)
-- What are output parsers, and why are they needed for production applications? — [Read Answer →](questions/prompt-engineering/22-output-parsers.md)
-- How do you handle multi-language prompting effectively? — [Read Answer →](questions/prompt-engineering/23-multi-language-prompting.md)
+- What is prompt engineering, and why is it critical for AI applications? — [Read Answer →](prompt-engineering/01-what-is-prompt-engineering.md)
+- Explain zero-shot, one-shot, and few-shot prompting with examples. — [Read Answer →](prompt-engineering/02-zero-one-few-shot.md)
+- What is chain-of-thought (CoT) prompting, and when should you use it? — [Read Answer →](prompt-engineering/03-chain-of-thought.md)
+- Explain self-consistency prompting and how it improves reasoning. — [Read Answer →](prompt-engineering/04-self-consistency.md)
+- What is tree-of-thought prompting? — [Read Answer →](prompt-engineering/05-tree-of-thought.md)
+- What is ReAct (Reasoning + Acting) prompting, and how does it work? — [Read Answer →](prompt-engineering/06-react-prompting.md)
+- What is a system prompt, and how does it influence model behavior? — [Read Answer →](prompt-engineering/07-system-prompts.md)
+- How do you structure prompts for consistent structured output (JSON, XML)? — [Read Answer →](prompt-engineering/08-structured-output-prompting.md)
+- What is prompt injection, and how do you defend against it? — [Read Answer →](prompt-engineering/09-prompt-injection.md)
+- What is jailbreaking in LLMs, and what are common jailbreak techniques? — [Read Answer →](prompt-engineering/10-jailbreaking.md)
+- How do you optimize prompts for cost and latency? — [Read Answer →](prompt-engineering/11-cost-latency-optimization.md)
+- What is the difference between prompt engineering and prompt tuning? — [Read Answer →](prompt-engineering/12-engineering-vs-tuning.md)
+- What is a prompt template, and how do you design one for production use? — [Read Answer →](prompt-engineering/13-prompt-templates.md)
+- How do you handle multi-turn conversations with LLMs? — [Read Answer →](prompt-engineering/14-multi-turn-conversations.md)
+- What is role prompting, and when is it effective? — [Read Answer →](prompt-engineering/15-role-prompting.md)
+- What is prompt chaining, and how do you design a chain of prompts for complex tasks? — [Read Answer →](prompt-engineering/16-prompt-chaining.md)
+- How do you evaluate and iterate on prompt quality? — [Read Answer →](prompt-engineering/17-evaluating-prompt-quality.md)
+- What are meta-prompts, and how can they be used to generate prompts? — [Read Answer →](prompt-engineering/18-meta-prompts.md)
+- What are the common failure modes in prompting, and how do you debug them? — [Read Answer →](prompt-engineering/19-failure-modes.md)
+- How do you handle edge cases and adversarial inputs in prompt design? — [Read Answer →](prompt-engineering/20-edge-cases.md)
+- What is the "lost in the middle" problem in long-context prompting? — [Read Answer →](prompt-engineering/21-lost-in-the-middle.md)
+- What are output parsers, and why are they needed for production applications? — [Read Answer →](prompt-engineering/22-output-parsers.md)
+- How do you handle multi-language prompting effectively? — [Read Answer →](prompt-engineering/23-multi-language-prompting.md)
 
 ### Scenario-Based Questions
 
-- Your few-shot prompting gives inconsistent results across similar inputs. How do you stabilize it? — [Read Answer →](questions/prompt-engineering/24-scenario-inconsistent-few-shot.md)
-- Your LLM classification system is too sensitive to prompt wording changes. How do you reduce prompt sensitivity? — [Read Answer →](questions/prompt-engineering/25-scenario-prompt-sensitivity.md)
-- Your chatbot's system prompt containing proprietary business logic is being leaked by users. How do you prevent it? — [Read Answer →](questions/prompt-engineering/26-scenario-system-prompt-leak.md)
-- Your LLM agent is vulnerable to prompt injection that reveals the system prompt. How do you defend it? — [Read Answer →](questions/prompt-engineering/27-scenario-injection-defense.md)
-- Your chain-of-thought prompting is not improving LLM accuracy on reasoning tasks. What do you fix? — [Read Answer →](questions/prompt-engineering/28-scenario-cot-not-working.md)
-- Your AI system works in English but fails for other languages. How do you add multilingual support? — [Read Answer →](questions/prompt-engineering/29-scenario-multilingual-support.md)
-- Your zero-shot cross-lingual transfer from English fails on other languages. How do you fix it? — [Read Answer →](questions/prompt-engineering/30-scenario-cross-lingual-failure.md)
+- Your few-shot prompting gives inconsistent results across similar inputs. How do you stabilize it? — [Read Answer →](prompt-engineering/24-scenario-inconsistent-few-shot.md)
+- Your LLM classification system is too sensitive to prompt wording changes. How do you reduce prompt sensitivity? — [Read Answer →](prompt-engineering/25-scenario-prompt-sensitivity.md)
+- Your chatbot's system prompt containing proprietary business logic is being leaked by users. How do you prevent it? — [Read Answer →](prompt-engineering/26-scenario-system-prompt-leak.md)
+- Your LLM agent is vulnerable to prompt injection that reveals the system prompt. How do you defend it? — [Read Answer →](prompt-engineering/27-scenario-injection-defense.md)
+- Your chain-of-thought prompting is not improving LLM accuracy on reasoning tasks. What do you fix? — [Read Answer →](prompt-engineering/28-scenario-cot-not-working.md)
+- Your AI system works in English but fails for other languages. How do you add multilingual support? — [Read Answer →](prompt-engineering/29-scenario-multilingual-support.md)
+- Your zero-shot cross-lingual transfer from English fails on other languages. How do you fix it? — [Read Answer →](prompt-engineering/30-scenario-cross-lingual-failure.md)
 
 ---
 
