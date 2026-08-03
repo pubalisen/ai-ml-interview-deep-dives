@@ -107,6 +107,31 @@ Every question includes:
 | 67 | **Lost in the Middle** — Long-context attention bias | Prompt Engineering | [Read →](prompt-engineering/21-lost-in-the-middle.md) |
 | 68 | **Output Parsers** — Text to structured data | Prompt Engineering | [Read →](prompt-engineering/22-output-parsers.md) |
 | 69 | **Multi-Language** — Cross-lingual prompting | Prompt Engineering | [Read →](prompt-engineering/23-multi-language-prompting.md) |
+| 70 | **What Is RAG** — Retrieval-Augmented Generation explained | RAG | [Read →](rag/01-what-is-rag.md) |
+| 71 | **RAG Architecture** — Two-phase system design | RAG | [Read →](rag/02-rag-architecture.md) |
+| 72 | **RAG Pipeline Components** — Seven core components | RAG | [Read →](rag/03-rag-pipeline-components.md) |
+| 73 | **Chunking Strategies** — Choosing the right chunk size | RAG | [Read →](rag/04-chunking-strategies.md) |
+| 74 | **Chunking Comparison** — Fixed vs semantic vs recursive | RAG | [Read →](rag/05-chunking-comparison.md) |
+| 75 | **Embedding Models** — Text-to-vector conversion | RAG | [Read →](rag/06-embedding-models.md) |
+| 76 | **Choosing Embedding Models** — Selection criteria and benchmarks | RAG | [Read →](rag/07-choosing-embedding-model.md) |
+| 77 | **Agentic RAG** — Model-controlled retrieval | RAG | [Read →](rag/08-agentic-rag.md) |
+| 78 | **Hybrid Search** — Dense + sparse retrieval fusion | RAG | [Read →](rag/09-hybrid-search.md) |
+| 79 | **Re-Ranking** — Cross-encoder quality improvement | RAG | [Read →](rag/10-reranking.md) |
+| 80 | **Multi-Hop Questions** — Multi-document reasoning | RAG | [Read →](rag/11-multi-document-multi-hop.md) |
+| 81 | **Lost in the Middle** — Context position attention bias | RAG | [Read →](rag/12-lost-in-the-middle.md) |
+| 82 | **RAG Evaluation** — Faithfulness, relevance, precision/recall | RAG | [Read →](rag/13-rag-evaluation.md) |
+| 83 | **Self-RAG** — Model-controlled retrieval decisions | RAG | [Read →](rag/14-self-rag.md) |
+| 84 | **GraphRAG** — Knowledge graph augmented retrieval | RAG | [Read →](rag/15-graph-rag.md) |
+| 85 | **Structured Data RAG** — Tables, SQL, and databases | RAG | [Read →](rag/16-structured-data-rag.md) |
+| 86 | **RAG Failure Modes** — Debugging retrieval and generation | RAG | [Read →](rag/17-rag-failure-modes.md) |
+| 87 | **Document Freshness** — Updates and staleness management | RAG | [Read →](rag/18-document-updates-freshness.md) |
+| 88 | **RAG Latency** — Production optimization techniques | RAG | [Read →](rag/19-rag-latency-optimization.md) |
+| 89 | **Metadata Filtering** — Narrowing search scope | RAG | [Read →](rag/20-metadata-filtering.md) |
+| 90 | **RAG vs Fine-Tuning** — When to use each approach | RAG | [Read →](rag/21-rag-vs-fine-tuning.md) |
+| 91 | **Query Transformation** — HyDE, decomposition, step-back | RAG | [Read →](rag/22-query-transformation.md) |
+| 92 | **Citation & Attribution** — Source provenance in answers | RAG | [Read →](rag/23-citation-attribution.md) |
+| 93 | **Scaling RAG** — Millions of documents at production scale | RAG | [Read →](rag/24-scaling-rag.md) |
+| 94 | **Parent-Child Chunking** — Separating retrieval from context | RAG | [Read →](rag/25-parent-child-chunking.md) |
 
 > More deep dives are added regularly. ⭐ Star the repo to stay updated.
 
@@ -263,46 +288,46 @@ Every question includes:
 
 ### Conceptual Questions
 
-- What is Retrieval-Augmented Generation (RAG), and why is it important?
-- Explain the architecture of a basic RAG system.
-- What are the key components of a RAG pipeline?
-- What are chunking strategies, and how do you choose the right chunk size?
-- Compare fixed-size chunking, semantic chunking, and recursive chunking.
-- What are embedding models, and how do they convert text to vectors?
-- How do you choose an embedding model for your RAG system?
-- Explain Agentic RAG.
-- What is hybrid search, and why is it better than pure vector search?
-- What is re-ranking, and how does it improve RAG retrieval quality?
-- How do you handle multi-document and multi-hop questions in RAG?
-- What is the "lost in the middle" problem in RAG systems?
-- How do you evaluate a RAG system? Explain faithfulness, relevance, and context precision/recall.
-- Explain Self-RAG. How does the model decide when to retrieve?
-- What is GraphRAG, and when would you use it over traditional RAG?
-- How do you handle structured data (tables, SQL databases) in a RAG pipeline?
-- What are the common failure modes of RAG systems, and how do you debug them?
-- How do you handle document updates and maintain freshness in a RAG system?
-- How do you optimize RAG for latency in production?
-- What is the role of metadata filtering in RAG systems?
-- Compare RAG vs fine-tuning. When would you use each?
-- What is query transformation in RAG (HyDE, query decomposition, step-back prompting)?
-- How do you implement citation and source attribution in RAG?
-- How do you scale a RAG system to millions of documents?
-- What is parent-child chunking, and how does it improve retrieval?
+- What is Retrieval-Augmented Generation (RAG), and why is it important? — [Read Answer →](rag/01-what-is-rag.md)
+- Explain the architecture of a basic RAG system. — [Read Answer →](rag/02-rag-architecture.md)
+- What are the key components of a RAG pipeline? — [Read Answer →](rag/03-rag-pipeline-components.md)
+- What are chunking strategies, and how do you choose the right chunk size? — [Read Answer →](rag/04-chunking-strategies.md)
+- Compare fixed-size chunking, semantic chunking, and recursive chunking. — [Read Answer →](rag/05-chunking-comparison.md)
+- What are embedding models, and how do they convert text to vectors? — [Read Answer →](rag/06-embedding-models.md)
+- How do you choose an embedding model for your RAG system? — [Read Answer →](rag/07-choosing-embedding-model.md)
+- Explain Agentic RAG. — [Read Answer →](rag/08-agentic-rag.md)
+- What is hybrid search, and why is it better than pure vector search? — [Read Answer →](rag/09-hybrid-search.md)
+- What is re-ranking, and how does it improve RAG retrieval quality? — [Read Answer →](rag/10-reranking.md)
+- How do you handle multi-document and multi-hop questions in RAG? — [Read Answer →](rag/11-multi-document-multi-hop.md)
+- What is the "lost in the middle" problem in RAG systems? — [Read Answer →](rag/12-lost-in-the-middle.md)
+- How do you evaluate a RAG system? Explain faithfulness, relevance, and context precision/recall. — [Read Answer →](rag/13-rag-evaluation.md)
+- Explain Self-RAG. How does the model decide when to retrieve? — [Read Answer →](rag/14-self-rag.md)
+- What is GraphRAG, and when would you use it over traditional RAG? — [Read Answer →](rag/15-graph-rag.md)
+- How do you handle structured data (tables, SQL databases) in a RAG pipeline? — [Read Answer →](rag/16-structured-data-rag.md)
+- What are the common failure modes of RAG systems, and how do you debug them? — [Read Answer →](rag/17-rag-failure-modes.md)
+- How do you handle document updates and maintain freshness in a RAG system? — [Read Answer →](rag/18-document-updates-freshness.md)
+- How do you optimize RAG for latency in production? — [Read Answer →](rag/19-rag-latency-optimization.md)
+- What is the role of metadata filtering in RAG systems? — [Read Answer →](rag/20-metadata-filtering.md)
+- Compare RAG vs fine-tuning. When would you use each? — [Read Answer →](rag/21-rag-vs-fine-tuning.md)
+- What is query transformation in RAG (HyDE, query decomposition, step-back prompting)? — [Read Answer →](rag/22-query-transformation.md)
+- How do you implement citation and source attribution in RAG? — [Read Answer →](rag/23-citation-attribution.md)
+- How do you scale a RAG system to millions of documents? — [Read Answer →](rag/24-scaling-rag.md)
+- What is parent-child chunking, and how does it improve retrieval? — [Read Answer →](rag/25-parent-child-chunking.md)
 
 ### Scenario-Based Questions
 
-- Your RAG system is hallucinating despite having the right context. How do you fix it?
-- Your RAG chunk overlap causes redundant results. How do you reduce redundancy?
-- Your RAG retrieval is too slow with a large knowledge base. How do you speed it up?
-- Your RAG system returns duplicate results. How do you deduplicate?
-- Your RAG system needs per-user access control on internal documents. How do you implement it?
-- Your RAG system fails on domain-specific jargon. How do you fix it?
-- Your text-only RAG system now needs to handle images and tables. How do you extend it?
-- Your RAG knowledge base gets updated frequently and needs versioning. How do you manage it?
-- Your RAG system fails on multi-hop questions that require combining multiple facts. How do you fix it?
-- Your enterprise RAG system returns contradictory answers from different source documents. How do you resolve conflicts?
-- Your RAG system returns outdated answers from an evolving knowledge base. How do you keep it current?
-- Your RAG system struggles with PDF documents containing tables and layouts. How do you fix PDF parsing?
+- Your RAG system is hallucinating despite having the right context. How do you fix it? — [Read Answer →](rag/26-scenario-hallucination-with-context.md)
+- Your RAG chunk overlap causes redundant results. How do you reduce redundancy? — [Read Answer →](rag/27-scenario-chunk-overlap-redundancy.md)
+- Your RAG retrieval is too slow with a large knowledge base. How do you speed it up? — [Read Answer →](rag/28-scenario-slow-retrieval.md)
+- Your RAG system returns duplicate results. How do you deduplicate? — [Read Answer →](rag/29-scenario-duplicate-results.md)
+- Your RAG system needs per-user access control on internal documents. How do you implement it? — [Read Answer →](rag/30-scenario-access-control.md)
+- Your RAG system fails on domain-specific jargon. How do you fix it? — [Read Answer →](rag/31-scenario-domain-jargon.md)
+- Your text-only RAG system now needs to handle images and tables. How do you extend it? — [Read Answer →](rag/32-scenario-multimodal-rag.md)
+- Your RAG knowledge base gets updated frequently and needs versioning. How do you manage it? — [Read Answer →](rag/33-scenario-knowledge-versioning.md)
+- Your RAG system fails on multi-hop questions that require combining multiple facts. How do you fix it? — [Read Answer →](rag/34-scenario-multi-hop-failure.md)
+- Your enterprise RAG system returns contradictory answers from different source documents. How do you resolve conflicts? — [Read Answer →](rag/35-scenario-contradictory-sources.md)
+- Your RAG system returns outdated answers from an evolving knowledge base. How do you keep it current? — [Read Answer →](rag/36-scenario-outdated-answers.md)
+- Your RAG system struggles with PDF documents containing tables and layouts. How do you fix PDF parsing? — [Read Answer →](rag/37-scenario-pdf-parsing.md)
 
 ---
 
