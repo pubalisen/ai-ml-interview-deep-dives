@@ -132,6 +132,7 @@ Every question includes:
 | 92 | **Citation & Attribution** — Source provenance in answers | RAG | [Read →](rag/23-citation-attribution.md) |
 | 93 | **Scaling RAG** — Millions of documents at production scale | RAG | [Read →](rag/24-scaling-rag.md) |
 | 94 | **Parent-Child Chunking** — Separating retrieval from context | RAG | [Read →](rag/25-parent-child-chunking.md) |
+| 95 | **Production Best Practices** — Hybrid chunking, latency, monitoring | RAG | [Read →](rag/38-production-best-practices.md) |
 
 > More deep dives are added regularly. ⭐ Star the repo to stay updated.
 
@@ -313,6 +314,7 @@ Every question includes:
 - How do you implement citation and source attribution in RAG? — [Read Answer →](rag/23-citation-attribution.md)
 - How do you scale a RAG system to millions of documents? — [Read Answer →](rag/24-scaling-rag.md)
 - What is parent-child chunking, and how does it improve retrieval? — [Read Answer →](rag/25-parent-child-chunking.md)
+- What are the key best practices for deploying RAG in production? — [Read Answer →](rag/38-production-best-practices.md)
 
 ### Scenario-Based Questions
 
